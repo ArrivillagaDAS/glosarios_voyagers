@@ -76,7 +76,7 @@ main
 | Semana 2 | Glosario: Inglés      | Glosario: Ser         | Glosario: Software   |
 | Semana 3 | Glosario: Software    | Glosario: Inglés      | Glosario: Ser        |
 
-**Fecha límite de entrega:** Todos los jueves de cada semana correspondiente.
+> **Fecha límite de entrega:** Todos los jueves de cada semana correspondiente.
 
 ## Estructura de Contenido por Glosario
 
@@ -89,7 +89,7 @@ main
 ## Normas de Contribución y Control de Cambios
 
 - Prohibido tocar o realizar modificaciones sobre la rama `main`.
-- Cada equipo debe trabajar estrictamente sobre la rama correspondiente según el glosario asignado (`dev/ser`, `dev/software` o `dev/ingles`). Está prohibido crear ramas adicionales o trabajar sobre las ramas de otros equipos.
+- Cada equipo debe trabajar estrictamente sobre la rama correspondiente según el glosario asignado (`feature/glosario-ser`, `feature/glosario-software` o `feature/glosario-ingles`). Está prohibido crear ramas adicionales o trabajar sobre las ramas de otros equipos.
 - No modificar archivos base ni archivos pertenecientes a otros equipos.
 - Verificar previamente que los términos a agregar no se encuentren ya registrados en el glosario.
 - Realizar un único commit por persona; ambos términos correspondientes deben incluirse dentro del mismo commit.

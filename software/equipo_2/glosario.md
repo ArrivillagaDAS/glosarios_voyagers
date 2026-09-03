@@ -32,3 +32,42 @@ COMMIT;
 ```
 
 Si algo sale mal después del primer `UPDATE` y antes del `COMMIT`, en vez de confirmar se hace `ROLLBACK`, y ya con eso ninguno de los dos cambios queda guardado. Así uno se asegura de que nunca vaya a quedar dinero "flotando" de un lado sin haber llegado al otro.
+
+
+### ARRAYS (PostgreSQL)
+
+**Descripción:**
+El tipo de dato **array** sirve para guardar varios datos juntos en un mismo lugar. La cantidad de datos que puede contener puede variar, y todos los datos que se guarden deben ser del mismo tipo.
+
+Los arrays son útiles cuando necesitamos almacenar varios valores que pertenecen a una misma información.
+
+**Ejemplo:**  
+Si necesitamos guardar los números telefónicos de una persona y esta tiene dos números, en lugar de crear un espacio diferente para cada número, podemos utilizar un **array** para guardar los dos números juntos.
+
+```postgresql
+    CREATE TABLE personas (             
+    id SERIAL PRIMARY KEY,              
+    nombre VARCHAR(100),                 
+    telefonos TEXT[]                     -- ARRAY: permite guardar varios teléfonos
+);
+```
+Los corchetes [] indican que es un array, es decir, que podemos guardar varios valores en esa misma columna.
+
+```postgresql
+    INSERT INTO personas (nombre, telefonos)
+    VALUES ('Carlos', ARRAY['55512345', '55567890']);
+```
+En este caso, Carlos tiene dos números de teléfono, y ambos se guardan dentro de la columna telefonos
+
+### Comando COPY (PostgreSQL)
+
+El comando **COPY** se utiliza para **cargar varios datos a una tabla de PostgreSQL de una sola vez**, normalmente desde un archivo.
+
+```postgresql
+  COPY personas(nombre, telefonos)       -- Indicamos la tabla y las columnas
+  FROM '/ruta/personas.csv'              -- Indicamos el archivo que contiene los datos
+  DELIMITER ','                          -- Indicamos que los datos están separados por comas
+  CSV HEADER;                            -- Indicamos que el archivo está en formato CSV y tiene encabezados
+```
+
+Con el comando `COPY`, PostgreSQL puede tomar estos datos del archivo y guardarlos en la tabla **personas** de una sola vez

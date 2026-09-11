@@ -17,5 +17,5 @@ Es la capacidad de mostrarse y actuar de manera sincera, siendo fiel a la propia
 **Ejemplo de aplicación:**
 
 ```Autenticidad
-Una persona que crea contenido en redes sociales compartiendo sus verdaderos conocimientos, opiniones e intereses, sin copiar la personalidad de otras personas, está demostrando autenticidad.
+Una persona que crea contenido en redes sociales compartiendo sus verdaderos conocimientos, opiniones e intereses, sin copiar la personalidad de otras personas, está demostrando autenticidad
 ``` 

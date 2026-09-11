@@ -123,3 +123,34 @@
 
     **Ejemplo:**
     El centro comunitario local fomentó un profundo sentimiento de compañerismo entre los adultos mayores, brindándoles no solo un lugar para reunirse, sino también una red de apoyo vital donde podían compartir historias de vida, afrontar el duelo y celebrar juntos los momentos importantes.
+
+
+### **Spill the tea**
+
+* **Traducción:**  
+  Chismear / Contar el chisme / Soltar la sopa
+
+* **Description (English):**  
+  To share gossip, secrets, or dramatic personal information with someone.
+
+* **Descripción (Español):**  
+  Compartir chismes, secretos o información personal dramática con alguien.
+
+* **Example (English):**  
+  Come on, sit down and spill the tea! I want to hear everything that happened yesterday.
+
+---
+
+### **Bite the bullet**
+
+* **Traducción:**  
+  Afrontar la situación / Morder la bala / Armarse de valor
+
+* **Description (English):**  
+  To force yourself to do something difficult, unpleasant, or painful that you have been delaying.
+
+* **Descripción (Español):**  
+  Obligarse a hacer algo difícil, desagradable o doloroso que se ha estado posponiendo.
+
+* **Example (English):**  
+  I hate going to the dentist, but I just need to bite the bullet and make an appointment.

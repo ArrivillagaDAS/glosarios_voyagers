@@ -7,6 +7,7 @@ Este repositorio establece el flujo de trabajo colaborativo y la asignación de 
 1. Para iniciar a trabajar, realizar un **fork** del repositorio principal.
 2. Clonar el repositorio bifurcado en una carpeta local.
 3. Cada equipo debe trabajar sobre la rama asignada según el glosario que le corresponde, asegurándose de revisar y verificar que se encuentran en dicha rama antes de realizar cualquier cambio.
+4. **Los PRs deben estar dirigidos hacia la misma rama, no hacia el dev ni al main.**
 
 ## Estructura del Repositorio y Ramas
 
@@ -15,9 +16,10 @@ El control de versiones y el desarrollo se estructuran bajo el siguiente árbol 
 ```
 main
 └── dev
-    ├── ser
-    ├── software
-    └── ingles
+    ├── feature/glosario-ser
+    ├── feature/glosario-software
+    ├── feature/glosario-ingles
+    └── fix/ser-ingles-progra 
 ```
 
 ### Estructura de directorios
@@ -89,8 +91,9 @@ main
 ## Normas de Contribución y Control de Cambios
 
 - Prohibido tocar o realizar modificaciones sobre la rama `main`.
-- Cada equipo debe trabajar estrictamente sobre la rama correspondiente según el glosario asignado (`feature/glosario-ser`, `feature/glosario-software` o `feature/glosario-ingles`). Está prohibido crear ramas adicionales o trabajar sobre las ramas de otros equipos.
+- Cada equipo debe trabajar estrictamente sobre la rama correspondiente según el glosario asignado (`dev/ser`, `dev/software` o `dev/ingles`). 
+- Está prohibido crear ramas adicionales o trabajar sobre la rama `fix/ser-ingles-progra`.
 - No modificar archivos base ni archivos pertenecientes a otros equipos.
-- Verificar previamente que los términos a agregar no se encuentren ya registrados en el glosario.
+- Verificar previamente que los términos a agregar no se encuentren ya registrados en el glosario de otros equipos.
 - Realizar un único commit por persona; ambos términos correspondientes deben incluirse dentro del mismo commit.
 > **Recomendacion de commits:** feat(equipo-x):nombre_apellido/materia
